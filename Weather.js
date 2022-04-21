@@ -1,5 +1,6 @@
 const getWeather = (lat, lng) => {
-    const key = '46dd5d64475395cddf2c14320731c2e9';
+    const key = ' ';
+    //46dd5d64475395cddf2c14320731c2e9
     const baseURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon${lng}&appid=${key}&units=metric&lang=ru`
     fetch(baseURL)
         .then((res) => res.json())
